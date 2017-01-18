@@ -2,7 +2,7 @@
 
 Display a solid color across the entire display.
 
-Use this to locate bad or stuck pixels on an LCD screen is to display a solid color across the entire display.
+Use this to locate bad or stuck pixels on an LCD screen.
 
 ## Usage
 
