@@ -1,0 +1,47 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Hiragino Sans GB", "Microsoft Yahei", 微软雅黑, Arial, Helvetica, STHeiti, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+p {
+  margin: 1em 0;
+}
+
+kbd {
+  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hide-help .help,
+.hide-help .top-left-corner,
+.hide-help .top-right-corner {
+  opacity: 0;
+}
+
+.top-left-corner,
+.top-right-corner {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  padding: 0 1em;
+}
+
+.top-left-corner {
+  left: 0;
+}
+
+.top-right-corner {
+  right: 0;
+}
